@@ -1,12 +1,32 @@
 body {
     background-color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #2dd354;
 }
 
 table {
+    table-layout: fixed;
+
     border-style: solid;
     border-color: #2dd354;
 }
 
-a {
+.boxed-link {
+    text-decoration: none;
+    padding: 10px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #2dd354;
+
     color: #2dd354;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    max-width: 50%;
+    margin: auto;
 }
