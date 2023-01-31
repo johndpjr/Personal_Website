@@ -11,6 +11,10 @@ table {
     border-color: #2dd354;
 }
 
+th {
+    text-align: center;
+}
+
 .boxed-link {
     text-decoration: none;
     padding: 10px;
@@ -22,11 +26,50 @@ table {
     color: #2dd354;
 }
 
-h1 {
+.selected-boxed-link {
+    text-decoration: none;
+    padding: 10px;
+
+    background-color: #2dd354;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #2dd354;
+
+    color: black;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-item-image {
+    width: 15%;
+    height: auto;
+}
+
+.portfolio-item-desc {
+}
+
+.portfolio-item-heading {
+}
+
+.portfolio-item-text {
+    max-width: 50%;
+}
+
+.heading {
     text-align: center;
 }
 
-p {
+.text {
     max-width: 50%;
     margin: auto;
+}
+
+.list {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
 }
