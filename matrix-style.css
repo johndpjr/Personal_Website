@@ -74,6 +74,12 @@ th {
     max-width: 50%;
 }
 
+.quali-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .heading {
     text-align: center;
 }
@@ -85,6 +91,7 @@ th {
 
 .list {
     display: table;
+    max-width: 50%;
     margin: 0 auto;
     text-align: left;
 }
