@@ -3,6 +3,8 @@ html {
 }
 
 body {
+    height: auto;
+
     background-color: black;
     font-family: "Lucida Console", "Courier New", monospace;
     color: #2dd354;
@@ -95,4 +97,27 @@ th {
     max-width: 50%;
     margin: 0 auto;
     text-align: left;
+}
+
+.theme-button {
+    background-color: black;
+    color: #2dd354;
+
+    border: 1px solid #2dd354;
+    outline: #2dd354;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1em;
+
+    font-size: x-large;
+}
+
+.theme-button:hover {
+    background-color: #2dd354;
+    color: black;
+
+    cursor: pointer;
 }
