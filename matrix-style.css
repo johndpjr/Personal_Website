@@ -39,6 +39,23 @@ th {
     color: black;
 }
 
+.landing-images {
+    width: 50%;
+    margin: auto;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.landing-image {
+    width: 15%;
+    height: auto;
+
+    margin: auto;
+}
+
 .portfolio-item {
     display: flex;
     align-items: center;
@@ -47,12 +64,6 @@ th {
 .portfolio-item-image {
     width: 15%;
     height: auto;
-}
-
-.portfolio-item-desc {
-}
-
-.portfolio-item-heading {
 }
 
 .portfolio-item-text {
