@@ -10,6 +10,7 @@ body {
 
 table {
     table-layout: fixed;
+    margin: auto;
 
     border-style: solid;
     border-color: #2dd354;
