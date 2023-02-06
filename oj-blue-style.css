@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: auto;
+
+    background-color: #2e3192;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #f7931e;
+}
+
+table {
+    table-layout: fixed;
+    margin: auto;
+
+    border: 0;
+
+    border-style: solid;
+    border-color: #f7931e;
+}
+
+th {
+    text-align: center;
+}
+
+.boxed-link {
+    text-decoration: none;
+    padding: 10px;
+
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #f7931e;
+
+    color: #f7931e;
+}
+
+.boxed-link:hover {
+    cursor: pointer;
+}
+
+.selected-boxed-link {
+    text-decoration: none;
+    padding: 10px;
+
+    background-color: #f7931e;
+
+    border-width: 3px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #f7931e;
+
+    color: #2e3192;
+}
+
+.selected-boxed-link:hover {
+    cursor: pointer;
+}
+
+.landing-images {
+    width: 50%;
+    margin: auto;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.landing-image {
+    width: 15%;
+    height: auto;
+
+    margin: auto;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-item-image {
+    width: 15%;
+    height: auto;
+}
+
+.portfolio-item-text {
+    max-width: 50%;
+}
+
+.quali-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.text {
+    max-width: 50%;
+    margin: auto;
+}
+
+.list {
+    display: table;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.theme-button {
+    background-color: #2e3192;
+    color: #f7931e;
+
+    border: 1px solid #f7931e;
+    outline: #f7931e;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1em;
+
+    font-size: x-large;
+}
+
+.theme-button:hover {
+    background-color: #f7931e;
+    color: #2e3192;
+
+    cursor: pointer;
+}
