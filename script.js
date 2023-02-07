@@ -10,7 +10,6 @@ function switchTheme() {
     localStorage.setItem('style', themeElem.getAttribute('href'));
 }
 
-
 window.onload = function() {
     themeName = localStorage.getItem('style');
     if (!themeName) {
