@@ -14,10 +14,12 @@ p {
     text-indent: 50px;
 }
 
-.textbox {
-    background-color: #1C1C1C;
-    border: solid 2px #00FF00;
-    padding: 10px;
-    margin: 20px;
-    width: 50%;
+.prompt {
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #00FF00;
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
 }
