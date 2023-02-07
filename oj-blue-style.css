@@ -6,7 +6,7 @@ body {
     height: auto;
 
     background-color: #2e3192;
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Arial, Helvetica, sans-serif;
     color: #f7931e;
 }
 
@@ -29,7 +29,7 @@ th {
     padding: 10px;
 
     border-width: 3px;
-    border-radius: 20px;
+    border-radius: 50%;
     border-style: solid;
     border-color: #f7931e;
 
@@ -47,7 +47,7 @@ th {
     background-color: #f7931e;
 
     border-width: 3px;
-    border-radius: 20px;
+    border-radius: 50%;
     border-style: solid;
     border-color: #f7931e;
 
@@ -102,6 +102,7 @@ th {
 .text {
     max-width: 50%;
     margin: auto;
+    text-align: center;
 }
 
 .list {
@@ -116,6 +117,7 @@ th {
     color: #f7931e;
 
     border: 1px solid #f7931e;
+    border-radius: 50%;
     outline: #f7931e;
 
     display: flex;
