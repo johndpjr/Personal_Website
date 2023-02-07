@@ -83,11 +83,11 @@ th {
     justify-content: center;
 }
 
-.heading {
+.heading, .heading-odd, .heading-even {
     text-align: center;
 }
 
-.text {
+.text, .text-odd, .text-even {
     max-width: 50%;
     margin: auto;
 }
